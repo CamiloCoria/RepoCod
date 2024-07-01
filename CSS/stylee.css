@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box
+}
+.fhome{
+    background-image: url(https://i.pinimg.com/736x/8e/23/c9/8e23c953c6bede3d057338d59079e60a.jpg);
+    height: 100vh;
+}
+header{
+    background-color: rgba(255, 255, 255, 0);
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+header nav div .logo1 {
+    width: 100px;
+    height: 100px;
+}
+.letras{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hijo{
+    background-color: #5a828a;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin: 100px 100px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+#logouno{
+    width: 230px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tapa{
+    display: block;
+    height: 50px;
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-left: 710px;
+}
+.fechas{
+    display: block;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+p{
+    margin: 0 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+strong{
+    font-weight: 700;
+    padding: 10px;
+    color: aliceblue;
+}
+span{
+    padding: 10px;
+    color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    background: transparent;
+    background-color: #5a828a;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px 40px;
+    font-weight: 400;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0.5rem auto;
+}
+#logog{
+    width: 1500px;
+    height: 450px;
+    bottom: 500px;
+    margin-left: 220px;
+}
+.rec{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    min-height: 100%;
+}
