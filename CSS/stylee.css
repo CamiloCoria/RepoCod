@@ -49,6 +49,9 @@ header nav{
     margin-right: 50px;
     margin-left: 710px;
 }
+
+/* fechas */
+
 .fechas{
     display: block;
     align-items: center;
@@ -97,3 +100,163 @@ a{
     object-fit: cover;
     min-height: 100%;
 }
+@media (max-width:990px) {
+    /* #logog{
+        display: flex;
+        width: 200px;
+        height: 100px;
+        margin-left: 345px;
+    } */
+}
+
+/* contacto */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+.desen{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/ro-dl-dsp-rgb-ntxt-1-66343d25ab48f.jpg?crop=1xw:0.5625xh;center,top&resize=1200:*);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    z-index: -1;
+    object-fit: cover;
+    min-height: 100%;
+    backdrop-filter: blur(0.5rem);
+}
+.f2{
+    height: 600px;
+    margin-top: 400 ;
+    margin-left: 00px ;
+    margin-right: -300px ;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+footer{
+    background-color: black;
+    padding: 50px 40px;
+    color: turquoise;
+}
+.pregunta{
+    display: flex;
+    background-color: transparent;
+    height: 700px;
+    width: 900px;
+    box-sizing: 0 0 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+.form{
+    padding:30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.form h1{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-bottom: 25px
+}
+.form p{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-weight: 700px;
+}
+label{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+.box{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 25px;
+    outline: none;
+    border: 1px solid black;
+}
+.submit{
+    background-color: #817ffe;
+    border: 0;
+    padding: 15px;
+    color: wheat;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 200px;
+    margin-top: 25px;
+    box-shadow: 0 0 25px rgba(201, 199, 253, 0.5);
+}
+.info{
+    padding: 50px;
+    display: flex;
+    width: 400%;
+}
+
+@media (max-width:990px) {
+    .pregunta{
+        width: 350px;
+        height: 800px; 
+        margin-top: 50px;
+    }
+    .info{
+        display: none;
+    }
+    .form{
+        width: 100%;
+        padding: 30px;
+    } 
+}
+  
+
+/* music */
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.totapas{
+    height: 100vh; 
+    display: flex;
+}
+ body main div{
+    span{
+        color: black;
+    }
+    strong{
+        color: black;
+    }
+    p{
+        margin: 0 0 2rem 0;
+    }
+    strong{
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        padding-top: 90px;
+    }
+    
+ }
+ .tt{
+    padding: 0;
+    margin: 0px;
+    height: 300px;
+ }
+ .f4{
+    background-color: #817ffe;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .t1{
+    padding: 10px;
+    margin: 150px;
+    height: 300px;
+    margin-left: 200px;
+ }
