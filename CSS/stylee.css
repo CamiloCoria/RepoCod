@@ -23,6 +23,7 @@ header nav div .logo1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 .hijo{
     background-color: #5a828a;
@@ -101,7 +102,7 @@ a{
 #logog{
     width: 1500px;
     height: 450px;
-    bottom: 500px;
+    bottom: 600px;
     margin-left: 220px;
 }
 .rec{
@@ -116,12 +117,14 @@ a{
     min-height: 100%;
 }
 @media (max-width:990px) {
-    /* #logog{
-        display: flex;
-        width: 200px;
-        height: 100px;
-        margin-left: 345px;
-    } */
+    #logog{
+        display: none
+    }
+}
+@media (max-width:1500px) {
+    #logog{
+        display: none
+    }
 }
 
 /* contacto */
@@ -231,7 +234,8 @@ label{
 
 .tm{
     display: flex;
-    justify-content: center;
+    justify-content: center ;
+    align-items: center;
     color: rgb(0, 0, 0);
 }
 
@@ -265,10 +269,9 @@ label{
     
  }
  .repo{
-    margin: auto;
-    /* height:20px ; */
-    margin-top: 70px ;
-    margin-left: 700px ;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
  }
  .tt{
     padding: 0;
@@ -284,5 +287,80 @@ label{
     background-color: #f0c5e9;
  }
 
+ @media (max-width:990px){
+    .totapas{
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .principal{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .repo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ }
+
  /* redes */
 
+.bodyr{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #817ffe;
+}
+
+.contenedor .botones{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px black;
+    transition: all .3s ease-out;
+}
+.contenedor .botones:hover{
+    width: 200px;
+}
+ .contenedor .botones .iconos{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+ }
+
+.contenedor .botones i{
+    font-size:  25px;
+    line-height: 60px;
+}
+.contenedor .botones span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    color: black;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.r1{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
