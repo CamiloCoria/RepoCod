@@ -44,11 +44,11 @@ header nav{
     justify-content: space-evenly;
 }
 .tapa{
-    display: block;
+    display: flex;
     height: 50px;
-    margin-top: 80px;
-    margin-right: 50px;
-    margin-left: 710px;
+    margin-top: 350px;
+    justify-content: center ;
+    align-items: center;
 }
 @media (max-width:900px){
     .logo1{
