@@ -381,6 +381,9 @@ label{
     box-shadow: 0 10px 10px black;
     transition: all .3s ease-out;
 }
+.tiktok-embed{
+    overflow: hidden;
+}
 .contenedor .botones:hover{
     width: 200px;
 }
