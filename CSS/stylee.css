@@ -1,48 +1,95 @@
-body{
+*{
     margin: 0%;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
+nav{
+    background: rgba(0, 0, 0, 0);
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 70px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+    li a.active. li a:hover{
+        background: blue;
+        transition: .5s;
+    }
+    .checkbtn{
+        font-size: 30px;
+        background: rgba(255, 255, 255, 0.014);
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+        border-radius: 20px;
+    }
+    #check{
+        display: none;
+    }
+    @media (max-width: 741px) {
+        .checkbtn{
+            display: block;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgb(82, 127, 145);
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+        nav ul li a{
+            font-size: 20px;
+        }
+        li a:hover, li a.active{
+            background: none;
+            color: red;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+    }
+
 .fhome{
     background-image: url(https://i.pinimg.com/736x/8e/23/c9/8e23c953c6bede3d057338d59079e60a.jpg);
     height: 100vh;
-}
-header{
-    background-color: rgba(255, 255, 255, 0);
-    height: 15%;
-    display: flex;
-    justify-content: center;
 }
 header nav div .logo1 {
     width: 230px;
     height: 100px;
 }
-.letras{
-    background-color: #817ffe00;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-}
-.hijo{
-    background-color: #5a828a;
-    padding: 15px 30px;
-    border-radius: 15px;
-    border: 1px solid white;
-    margin: 50px;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-}
 
-
-header nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 .tapa{
     display: flex;
     height: 50px;
@@ -58,12 +105,7 @@ header nav{
         margin: 15px;
     }
 }
-@media (max-width: 1135px){
-    .hijo{
-        margin: auto;
-        margin-top: 40px;
-    }
-}
+
 
 
 /* fechas */
@@ -88,13 +130,12 @@ span{
     padding: 10px;
     color: antiquewhite;
 }
-a{
+.f1{
     text-decoration: none;
     background: transparent;
     background-color: #5a828a;
     color: rgb(255, 255, 255);
     border-radius: 15px;
-    padding: 10px 40px;
     font-weight: 400;
     border: 1px solid rgb(255, 255, 255);
     margin: 0.5rem auto;
@@ -192,7 +233,7 @@ label{
     border: 0;
     background-color: rgba(255, 255, 255, 0.664);
     border-radius: 25px;
-    padding: 15px;
+    padding: 25px;
     margin-bottom: 25px;
     outline: none;
     border: 1px solid black;
@@ -213,7 +254,12 @@ label{
     display: flex;
     width: 400%;
 }
-
+.footer{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
 @media (max-width:990px) {
     .pregunta{
         width: 350px;
@@ -308,6 +354,12 @@ label{
     }
 
  }
+ @media(max-width: 390px){
+    .totapas {
+        display: flex;
+        flex-direction: column ;
+    }
+}
 
  /* redes */
 
