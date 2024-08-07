@@ -79,6 +79,11 @@ nav ul li a{
         #check:checked ~ ul{
             left: 0;
         }
+        .tapa{
+            height: 100px;
+            width: 100;
+            margin-top: 250px;
+        }
     }
 .fhome{
     background-image: url(https://i.pinimg.com/736x/8e/23/c9/8e23c953c6bede3d057338d59079e60a.jpg);
@@ -94,6 +99,7 @@ header nav div .logo1 {
     margin-top: 350px;
     justify-content: center ;
     align-items: center;
+    height: 200px 200px;
 }
 @media (max-width:900px){
     .logo1{
@@ -136,7 +142,10 @@ span{
     border: 1px solid rgb(255, 255, 255);
     margin: 0.5rem auto;
 }
-#logog{
+#logog{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1500px;
     height: 450px;
     bottom: 600px;
@@ -153,12 +162,39 @@ span{
     object-fit: cover;
     min-height: 100%;
 }
-@media (max-width:990px) {
+@media (max-width:1500px) {
     #logog{
-        display: none
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        height: 350px;
     }
 }
-@media (max-width:1500px) {
+@media (max-width:1230px) {
+    #logog{
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 250px;
+    }
+}
+@media (max-width:1000px) {
+    #logog{
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 200px;
+    }
+}
+@media (max-width:830px) {
+    #logog{
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 130px;
+    }
+}
+@media (max-width:730px) {
     #logog{
         display: none
     }
@@ -417,4 +453,18 @@ label{
     display: flex;
     justify-content: center ;
     align-items: center;
+}
+@media (max-width:794px) {
+    .tir{
+        display: none;
+    }
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .r1{
+        margin-bottom: -2px;
+    }
 }
