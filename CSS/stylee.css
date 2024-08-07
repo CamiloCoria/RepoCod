@@ -80,7 +80,6 @@ nav ul li a{
             left: 0;
         }
     }
-
 .fhome{
     background-image: url(https://i.pinimg.com/736x/8e/23/c9/8e23c953c6bede3d057338d59079e60a.jpg);
     height: 100vh;
@@ -89,7 +88,6 @@ header nav div .logo1 {
     width: 230px;
     height: 100px;
 }
-
 .tapa{
     display: flex;
     height: 50px;
@@ -105,8 +103,6 @@ header nav div .logo1 {
         margin: 15px;
     }
 }
-
-
 
 /* fechas */
 
@@ -170,7 +166,6 @@ span{
 
 /* contacto */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
-
 .desen{
     background-image: url(https://hips.hearstapps.com/hmg-prod/images/ro-dl-dsp-rgb-ntxt-1-66343d25ab48f.jpg?crop=1xw:0.5625xh;center,top&resize=1200:*);
     width: 100%;
@@ -274,17 +269,13 @@ label{
         padding: 30px;
     } 
 }
-  
-
 /* music */
-
 .tm{
     display: flex;
     justify-content: center ;
     align-items: center;
     color: rgb(0, 0, 0);
 }
-
 .principal{
     display: flex;
     flex-direction: row;
@@ -362,13 +353,22 @@ label{
 }
 
  /* redes */
-
 .bodyr{
     min-height: 100vh;
     width: 100%;
     background-color: #817ffe;
 }
-
+.tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5vh;
+    margin: 5%; 
+}
+.parra{
+    width: 50%;
+}
 .contenedor .botones{
     display: inline-block;
     height: 60px;
@@ -393,7 +393,6 @@ label{
     line-height: 60px;
     text-align: center;
  }
-
 .contenedor .botones i{
     font-size:  25px;
     line-height: 60px;
@@ -409,7 +408,7 @@ label{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .r1{
     display: flex;
